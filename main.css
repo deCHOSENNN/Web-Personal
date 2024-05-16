@@ -1,0 +1,119 @@
+html{
+    margin:auto;
+    padding:auto;
+}
+
+body{
+    background-color: b;
+    margin:auto;
+    font:16px/28px arial, sans-serif ;
+    background-image: url(Asset/Background\ dll/bakground.jpg);
+    
+}
+.judul-navbar{
+    font-size: 38px;
+    font:bold;
+    background-image: url(Asset/Background\ dll/image.jpg) ;
+    display:flex;
+    justify-content: center;
+    color:#f7f7f7;
+    margin:auto;
+    padding: 35px;
+}
+
+.container-navbar{
+    background-color: #555;
+    width:100%;
+    
+    padding:10px;
+}
+
+.ul-navbar{
+    display:flex;
+    justify-content:left ;
+    align-items: left;
+    
+}
+
+.li-navbar{
+    list-style-type: none;
+    height:30px;
+    margin:auto;
+    padding:5px;
+    color:white;
+}
+
+.li-navbar:hover{
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    background-color: purple;
+    border: 3px solid white;
+    border-radius: 30px;
+    
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.container-content{
+    height:auto;
+}
+
+.a-content{
+    font-size:20px ;
+    flex-direction: column;
+    display:flex;
+    font-style:bold;
+}
+
+.h2-content{
+    font-size: 50px;
+}
+
+.judul{
+    font-size:35px ;
+}
+
+.isi{
+    font-size: 25px;
+}
+
+.ul-newslide{
+    display:flex;
+    justify-content:left ;
+    align-items: left;
+    
+}
+
+.li-newslide{
+    list-style-type: none;
+    margin:35px;
+    padding:20px;
+    background-color: bisque;
+    border:2px solid black;
+    border-radius: 40px;
+}
+
+.a-newslide{
+    border: grey;
+    color:black;
+    text-decoration: none;
+    font-size:20px ;
+
+}
+
+.footer{
+    background-color: #555;
+    margin:auto;
+    padding:10px;
+}
+.h3-footer{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20px;
+}
